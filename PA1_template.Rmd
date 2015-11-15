@@ -95,7 +95,7 @@ names(intervalSteps)=c('Interval','mean')
 
 ```{r plot_time_series}
 ggplot(intervalSteps, aes(x = Interval,y=mean)) + 
-  geom_line(color = "blue",size = 1) + 
+  geom_line(color = "orange",size = 1) + 
   labs(title="Time-series of the average number of steps per intervals", 
        x = "interval", y = "Average Number of steps") + theme_bw()
 ```
